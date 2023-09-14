@@ -313,15 +313,11 @@ input[type=text] {
     }
     /*logo image smaller*/
     .navbar-brand img{
+        padding: 0px 3px;
         height: 20px;
     }
     .c-logo{
         font-size: 16px;
-    }
-    .c-button-sr a{
-        align-self: self-start;
-        font-size: 12px;
-        padding: 5px;
     }
     .navbar{
         position: -webkit-sticky;
@@ -331,14 +327,17 @@ input[type=text] {
         backdrop-filter: saturate(180%) blur(5px);
     }
     .c-button-sr a{
+        align-self: self-start;
+        font-size: 12px;
+        padding: 5px;
         color: var(--orange-dk) !important;
         background: none;
-        border: 1px solid var(--orange-dk);
+        border: none;
     }
     .c-button-sr a:hover{
-        color: var(--white) !important;
-        background-color: var(--orange-li);
-        border: 1px solid var(--orange-li);
+        color: var(--black) !important;
+        background-color: none;
+        border: none;
     }
     /*arrows distance from left & right*/
     /*showcase heading*/
