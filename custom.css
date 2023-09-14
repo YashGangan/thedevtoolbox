@@ -314,10 +314,10 @@ input[type=text] {
     /*logo image smaller*/
     .navbar-brand img{
         padding: 0px 3px;
-        height: 20px;
+        height: 30px;
     }
     .c-logo{
-        font-size: 16px;
+        font-size: 18px;
     }
     .navbar{
         position: -webkit-sticky;
