@@ -313,7 +313,7 @@ input[type=text] {
     }
     /*logo image smaller*/
     .navbar-brand img{
-        padding: 0px 3px;
+        padding-right: 3px;
         height: 30px;
     }
     .c-logo{
@@ -329,15 +329,7 @@ input[type=text] {
     .c-button-sr a{
         align-self: self-start;
         font-size: 12px;
-        padding: 5px;
-        color: var(--orange-dk) !important;
-        background: none;
-        border: none;
-    }
-    .c-button-sr a:hover{
-        color: var(--black) !important;
-        background-color: none;
-        border: none;
+        padding: 5px;    
     }
     /*arrows distance from left & right*/
     /*showcase heading*/

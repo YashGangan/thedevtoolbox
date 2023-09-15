@@ -24,9 +24,9 @@
             <img src="assets/logo.png" alt="logo">
             <div class="c-logo">The Dev Toolbox</div>
           </a>
-          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
-           <i class="fa-solid fa-plus" style="color: #EE8700; font-size: 10px;"></i>
-         </button> 
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+           <i class="fa-solid fa-plus fa-xs mt-3" style="color: #EE8700;"></i>
+        </button> 
          <div class="collapse navbar-collapse justify-content-end align-items-center text-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item c-button-li d-none d-lg-block mx-lg-3">
@@ -44,7 +44,7 @@
         <div class="container c-showcase d-flex flex-wrap flex-md-nowrap">
           <div class="c-show-content">
             <h1 class="c-head">Tools and resources you need to learn a new skill <i style="display: block;">- all in one place.</i></h1>
-            <p class="c-sub">Browse through your favourite technologies to discover courses, tools or learning resources that suit you best</p>
+            <p class="c-sub" style="color: rgb(122, 122, 122);">Browse through your favourite technologies to discover courses, tools or learning resources that suit you best</p>
             <div class="searchBar">
               <input id="search" type="text" onkeypress="detectEnter()" placeholder="Search through 100+ resources" name="search">
               <button id="searchBtn" type="submit" onclick="searchBar()"><i class="fa fa-search"></i></button>
@@ -88,8 +88,8 @@
               
                     <button class="c-bar-button" onclick="filterSelection('jobs')">Jobs</button>               
           </div>
-          <button class="right" onclick="rightScroll()"><i class="fa-solid fa-circle-right"></i></button>
-        </div>
+        <button class="right" onclick="rightScroll()"><i class="fa-solid fa-circle-right"></i></button>
+      </div>
           <!--Cards-->
           <div class="row row-cols-1 row-cols-md-3 g-4" id="c-card-list">
               <div class="col uiux learning free">
@@ -113,7 +113,7 @@
                           <p class="c-text">References for building beautifully designed single-page websites. Has multiple categories based on functionality involved.</p>
                           <span class="badge rounded-pill tag-1">UI/UX</span>
                           <span class="badge rounded-pill tag-2">Resource</span>
- <span class="badge rounded-pill tag-3">Free</span>
+                          <span class="badge rounded-pill tag-3">Free</span>
                           </div>
                       </a>
                   </div>
@@ -144,7 +144,97 @@
                       </a>
                   </div>
               </div>
-              
+              <div class="col webdev resource free">
+                <div class="card c-card text-center">
+                    <a href="https://50projects50days.com/" target="_blank">
+                        <div class="card-body">
+                        <h5 class="c-title">50 days 50 projects</h5>
+                        <p class="c-text">An archive of 50 web development projects to be made over 50 days using HTML, CSS and JavaScript. Helps you to build a strong foundation in frontend fundamentals.</p>
+                        <span class="badge rounded-pill tag-1">Web</span>
+                        <span class="badge rounded-pill tag-2">Resource</span>
+                        <span class="badge rounded-pill tag-3">Free</span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="col webdev resource free">
+                <div class="card c-card text-center">
+                    <a href="https://theodinproject.com" target="_blank">
+                        <div class="card-body">
+                        <h5 class="c-title">The Odin Project</h5>
+                        <p class="c-text">Provides a self-paced course focused on covering fullstack web development for free. Complete roadmap with resources and concepts to learn.</p>
+                        <span class="badge rounded-pill tag-1">Web</span>
+                        <span class="badge rounded-pill tag-2">Resource</span>
+                        <span class="badge rounded-pill tag-3">Free</span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="col uiux tool free">
+                <div class="card c-card text-center">
+                    <a href="https://deviceshots.com/" target="_blank">
+                        <div class="card-body">
+                        <h5 class="c-title">Device Shots</h5>
+                        <p class="c-text">Design device mockups with the screenshot of your website or mobile application. You could choose between different devices ranging from phones, tablets to laptops and computers.</p>
+                        <span class="badge rounded-pill tag-1">UI/UX</span>
+                        <span class="badge rounded-pill tag-2">Tool</span>
+                        <span class="badge rounded-pill tag-3">Free</span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="col ml learning free">
+                <div class="card c-card text-center">
+                    <a href="https://madewithml.com/" target="_blank">
+                        <div class="card-body">
+                        <h5 class="c-title">Made with ML</h5>
+                        <p class="c-text">Learn how to design, develop, deploy and iterate on production-grade ML applications. Involves a self-paced free course going over the fundamentals of ML.</p>
+                        <span class="badge rounded-pill tag-1">Machine Learning</span>
+                        <span class="badge rounded-pill tag-2">Learning</span>
+                        <span class="badge rounded-pill tag-3">Free</span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="col web3 resource free">
+                <div class="card c-card text-center">
+                    <a href="https://learnweb3.io/" target="_blank">
+                        <div class="card-body">
+                        <h5 class="c-title">Learn Web3</h5>
+                        <p class="c-text">Hosts free courses and certification programs for learning technologies involved in Web3 development including Blockchain, AI and Decentralised applications.</p>
+                        <span class="badge rounded-pill tag-1">Web3</span>
+                        <span class="badge rounded-pill tag-2">Resource</span>
+                        <span class="badge rounded-pill tag-3">Free</span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="col webdev tool free">
+                <div class="card c-card text-center">
+                    <a href="https://www.shapedivider.app/" target="_blank">
+                        <div class="card-body">
+                        <h5 class="c-title">Shape Divider</h5>
+                        <p class="c-text">A tool to build beautiful shapes to improve your website's aesthetic. Choose the settings as you want them to be and export the code that can be included in your site.</p>
+                        <span class="badge rounded-pill tag-1">Web</span>
+                        <span class="badge rounded-pill tag-2">Resource</span>
+                        <span class="badge rounded-pill tag-3">Free</span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="col programming tool free">
+                <div class="card c-card text-center">
+                    <a href="https://roadmap.sh/" target="_blank">
+                        <div class="card-body">
+                        <h5 class="c-title">Developer Roadmaps</h5>
+                        <p class="c-text">A community effort to create roadmaps, guides and other educational content to help guide developers in picking up a path and guide their learnings.</p>
+                        <span class="badge rounded-pill tag-1">Programming</span>
+                        <span class="badge rounded-pill tag-2">Resource</span>
+                        <span class="badge rounded-pill tag-3">Free</span>
+                        </div>
+                    </a>
+                </div>
+              </div>
           </div>
       </div>
     </section>   
